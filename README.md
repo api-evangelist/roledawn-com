@@ -1,4 +1,4 @@
-# roledawn-com
+# RoleDawn
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-roledawn-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://roledawn.com/
+RoleDawn offers a hiring‑signals tool that monitors 4,481 tech‑company career pages and delivers daily lists of companies posting new roles in the teams that B2B sales teams sell to. The signals are sent each morning to Slack or email and include a link to the original job posting. Plans are priced per team, not per seat, with free trials and no credit‑card required.
+
+**Areas:** Hiring signals · B2B sales
+
+## RoleDawn on APIs.io
+
+Everything profiled for RoleDawn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/roledawn-com/](https://apis.io/providers/roledawn-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [RoleDawn Apps API](https://apis.io/apis/roledawn-com/roledawn-com-apps-api/) — App Store and Google Play app metadata and reviews
+- [RoleDawn Jobs API](https://apis.io/apis/roledawn-com/roledawn-com-jobs-api/) — Open jobs on a company's ATS job board
+- [RoleDawn Signals API](https://apis.io/apis/roledawn-com/roledawn-com-signals-api/) — Companies with roles in a family new on their job board, or a hiring surge
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RoleDawn Agentic Access](https://apis.io/agentic-access/roledawn-com/roledawn-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [App](https://apis.io/schemas/roledawn-com/roledawn-com-app/)
+- [AppReviewsResponse](https://apis.io/schemas/roledawn-com/roledawn-com-app-reviews-response/)
+- [JobsResponse](https://apis.io/schemas/roledawn-com/roledawn-com-jobs-response/)
+- [SignalList](https://apis.io/schemas/roledawn-com/roledawn-com-signal-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Roledawn Com Context](https://apis.io/jsonld/roledawn-com/roledawn-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RoleDawn API Rules](https://apis.io/rules/roledawn-com/roledawn-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RoleDawn Authentication](https://apis.io/security/roledawn-com/roledawn-com-authentication/)
+- [RoleDawn Domain Security](https://apis.io/security/roledawn-com/roledawn-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RoleDawn Plans Pricing](https://apis.io/plans/roledawn-com/roledawn-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://roledawn.com/)
+- [Documentation](https://roledawn.com/guides/google-play-reviews-api)
+- [API reference](https://roledawn.com/llms.txt)
+- [Pricing](https://roledawn.com/pricing)
+- [Support](https://roledawn.com/hiring/support)
+- [Blog](https://roledawn.com/blog)
+- [Security](https://roledawn.com/first-hire/security)
+- [Terms of service](https://roledawn.com/terms)
+- [Privacy policy](https://roledawn.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 53.0** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 59.1 |
+
+**Agent readiness 34.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/roledawn-com/](https://apis.io/providers/roledawn-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RoleDawn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/roledawn-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
